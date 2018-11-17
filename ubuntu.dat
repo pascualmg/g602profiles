@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<obprofiles xmlns="http://www.logitech.com/Cassandra/2013.1/OnboardProfile">
+  <profile name="">
+    <device powermode="1" reportrate="500" model="Logitech.Gaming.Mouse.G602" buttoncount="11" anglesnapping="0">
+      <dpitable defaultindex="2" shift="1500">
+        <dpi x="500" y="500"/>
+        <dpi x="1000" y="1000"/>
+        <dpi x="1500" y="1500"/>
+        <dpi x="2000" y="2000"/>
+        <dpi x="2500" y="2500"/>
+      </dpitable>
+    </device>
+    <buttons>
+      <button name="Clic de botón izquierdo" number="1">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="leftclick"/>
+        </mousefunction>
+      </button>
+      <button name="Clic de botón derecho" number="2">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="rightclick"/>
+        </mousefunction>
+      </button>
+      <button name="Clic con el botón central" number="3">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="middleclick"/>
+        </mousefunction>
+      </button>
+      <button name="ALT + WINDOWS IZQUIERDA + 4" number="4">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="4"/>
+          <modifier value="LALT"/>
+          <modifier value="LGUI"/>
+        </keystroke>
+      </button>
+      <button name="ALT + WINDOWS IZQUIERDA + 5" number="5">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="5"/>
+          <modifier value="LALT"/>
+          <modifier value="LGUI"/>
+        </keystroke>
+      </button>
+      <button name="ALT + WINDOWS IZQUIERDA + 6" number="6">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="6"/>
+          <modifier value="LALT"/>
+          <modifier value="LGUI"/>
+        </keystroke>
+      </button>
+      <button name="ALT + WINDOWS IZQUIERDA + 7" number="7">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="7"/>
+          <modifier value="LALT"/>
+          <modifier value="LGUI"/>
+        </keystroke>
+      </button>
+      <button name="ALT + WINDOWS IZQUIERDA + 8" number="8">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="8"/>
+          <modifier value="LALT"/>
+          <modifier value="LGUI"/>
+        </keystroke>
+      </button>
+      <button name="ALT + WINDOWS IZQUIERDA + 9" number="9">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="9"/>
+          <modifier value="LALT"/>
+          <modifier value="LGUI"/>
+        </keystroke>
+      </button>
+      <button name="Aumentar DPI" number="10">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="dpiup"/>
+        </mousefunction>
+      </button>
+      <button name="Reducir DPI" number="11">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="dpidown"/>
+        </mousefunction>
+      </button>
+    </buttons>
+  </profile>
+</obprofiles>
