@@ -32,3 +32,12 @@ Esta basado en el post de https://robustiana.com/343-configuracion-botones-logit
 Mi opcion sera usar un perfil .dat , sin rebindeos con el xdotool aunque la herramienta es tan versatil que merece la pena , ese pequeño delay nos va a dar igual si queremos hacer una macro realmente compleja. 
 
 Ire actualizando y metiendo perfiles para las nuevas aplicacioens. 
+
+
+
+### PhpStorm.dat & Chrome dev.
+
+botones alante/atras se dejan default , phptorm los usa para navegar a ultimos puntos de cursor.
+Los G7/G8 -> alt+leftArrow / alt+right Arrow , (emulan mismo comportamiento que cambio de pestaña en chrome con ctrl+tab)
+G9 -> F12  ( abrir consola chrome.)
+G6 -> Ctrl + shift + F ( phpstorm busqueda proyecto y chrome)
