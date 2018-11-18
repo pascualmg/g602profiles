@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<obprofiles xmlns="http://www.logitech.com/Cassandra/2013.1/OnboardProfile">
+  <profile name="">
+    <device powermode="1" reportrate="500" model="Logitech.Gaming.Mouse.G602" buttoncount="11" anglesnapping="0">
+      <dpitable defaultindex="2" shift="500">
+        <dpi x="500" y="500"/>
+        <dpi x="1000" y="1000"/>
+        <dpi x="1500" y="1500"/>
+        <dpi x="2000" y="2000"/>
+        <dpi x="2500" y="2500"/>
+      </dpitable>
+    </device>
+    <buttons>
+      <button name="Clic de botón izquierdo" number="1">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="leftclick"/>
+        </mousefunction>
+      </button>
+      <button name="Clic de botón derecho" number="2">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="rightclick"/>
+        </mousefunction>
+      </button>
+      <button name="Clic con el botón central" number="3">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="middleclick"/>
+        </mousefunction>
+      </button>
+      <button name="Adelante" number="4">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="forward"/>
+        </mousefunction>
+      </button>
+      <button name="Atrás" number="5">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="back"/>
+        </mousefunction>
+      </button>
+      <button name="ALT + FLECHA DERECHA" number="7">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="RIGHT"/>
+          <modifier value="LALT"/>
+        </keystroke>
+      </button>
+      <button name="ALT + FLECHA IZQUIERDA" number="8">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="LEFT"/>
+          <modifier value="LALT"/>
+        </keystroke>
+      </button>
+      <button name="CTRL + MAYUSCULAS + F" number="9">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="F"/>
+          <modifier value="LCTRL"/>
+          <modifier value="LSHIFT"/>
+        </keystroke>
+      </button>
+      <button name="Aumentar DPI" number="10">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="dpiup"/>
+        </mousefunction>
+      </button>
+      <button name="Reducir DPI" number="11">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="dpidown"/>
+        </mousefunction>
+      </button>
+    </buttons>
+  </profile>
+</obprofiles>
